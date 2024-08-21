@@ -100,7 +100,7 @@ public class Main {
                 String nim = scanner.nextLine();
                 System.out.print("Masukkan nilai baru: ");
                 int nilai = scanner.nextInt();
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
                 m.nim = nim;
                 m.nilai = nilai;
                 System.out.println("Data mahasiswa berhasil diupdate.");
